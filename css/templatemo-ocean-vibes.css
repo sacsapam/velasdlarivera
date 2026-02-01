@@ -455,7 +455,7 @@ figure.effect-chico:hover p {
     padding-bottom: 65px;
 }
 .tm-contact-col {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     padding-left: 40px;  
 }
 
