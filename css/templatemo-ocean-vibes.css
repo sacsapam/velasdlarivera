@@ -97,6 +97,7 @@ a {
 #tm-video {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 #tm-video-control-button {
