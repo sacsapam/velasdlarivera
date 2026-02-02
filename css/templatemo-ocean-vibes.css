@@ -467,14 +467,14 @@ figure.effect-chico:hover p {
 }
 
 .tm-contact-form {
-    max-width: 1050px;
+    max-width: 1250px;
     margin-left: 40px;
     margin-right: 10px;
 }
 
 .form-control {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     border: 1px solid #D5D6D7;
     box-sizing: border-box;
     padding: 15px;
