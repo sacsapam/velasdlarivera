@@ -88,7 +88,6 @@ a {
 
 #tm-video-container {
     max-height: 400px;
-    overflow: hidden;
     background-color: #333;
     margin-bottom: 20px;
     position: relative;
@@ -707,15 +706,17 @@ address {
   top: 0px;
 }
 
-.watermark {
-    position: absolute;
-    top: 20px;       /* Distancia desde arriba */
-    right: 20px;     /* Distancia desde la derecha */
-    color: rgba(255, 255, 255, 0.5); /* Blanco con 50% de transparencia */
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-    pointer-events: none; /* Importante: permite hacer clic en el video a través del texto */
-    user-select: none;    /* Evita que seleccionen el texto */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* Sombra para que se vea en fondos claros */
-    z-index: 10;
+.watermark-link {
+            position: absolute;
+            bottom: 60px;    /* Lo subimos un poco para que no tape los controles */
+            right: 20px;
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none; /* Quita el subrayado */
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.3); /* Fondo sutil para legibilidad */
+            padding: 5px 10px;
+            border-radius: 5px;
+            z-index: 20;
+            transition: 0.3s; /* Efecto suave al pasar el mouse */
 }
