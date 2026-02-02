@@ -91,6 +91,8 @@ a {
     background-color: #333;
     margin-bottom: 20px;
     position: relative;
+    overflow: hidden;
+    display: inline-block;
 }
 
 #tm-video {
