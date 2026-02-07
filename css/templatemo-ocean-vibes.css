@@ -666,7 +666,7 @@ address {
 }
 
 .navbar-brand {
-  margin-right: 5%;
+  margin-right: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
