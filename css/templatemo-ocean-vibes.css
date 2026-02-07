@@ -687,7 +687,7 @@ address {
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
   top: 55px;
-  /*transform: translate(-50%, -50%);]*/
+  transform: translate(-20%, -20%);]
   left: 125px;
 }
 
@@ -696,7 +696,7 @@ address {
   top: 190px;
   display: inline-block;
   left: 85%;
-  /*transform: translate(-50%, -50%);]*/
+  transform: translate(-20%, -20%);]
 }
 
 .txtMenu {
