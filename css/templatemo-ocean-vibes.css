@@ -687,15 +687,15 @@ address {
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
   top: 5px;
-  transform: translate(-90%, -60%);
-  left: 5px;
+  transform: translate(-90%, -50%);
+  left: 25px;
 }
 
 .social_box {
   position: absolute;
-  top: 40px;
+  top: 30px;
   display: inline-block;
-  left: 95%;
+  left: 85%;
   transform: translate(-50%, -50%);
 }
 
