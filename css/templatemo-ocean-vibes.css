@@ -687,8 +687,8 @@ address {
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
   top: 55px;
-  transform: translate(-50%, -50%);
-  left: 1px;
+  /*transform: translate(-50%, -50%);]*/
+  left: 125px;
 }
 
 .social_box {
@@ -696,7 +696,7 @@ address {
   top: 190px;
   display: inline-block;
   left: 85%;
-  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);]*/
 }
 
 .txtMenu {
