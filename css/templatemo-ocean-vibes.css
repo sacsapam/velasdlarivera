@@ -665,7 +665,7 @@ address {
     }
 }
 
-.navbar-brand {
+/*.navbar-brand {
   margin-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -697,6 +697,44 @@ address {
   display: inline-block;
   left: 85%;
   transform: translate(-90%, -90%);
+}*/
+
+
+/* Contenedor principal para alinear logo a la izquierda y redes a la derecha */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  position: relative;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column; /* Alinea imagen y texto en columna (uno abajo de otro) */
+  align-items: center;    /* Centra el texto respecto al logo */
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 35px;
+  margin-bottom: 5px; /* Espacio entre logo y texto */
+}
+
+.navbar-brand span {
+  text-shadow: 2px 2px 4px gray;
+  color: #03a7bb;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* Eliminamos los top/left/transform que movían el texto de forma errática */
+}
+
+.social_box {
+  position: absolute;
+  top: 20px;
+  right: 20px; /* Siempre pegado a la derecha */
+  display: flex;
+  gap: 15px;   /* Espacio entre iconos sociales */
 }
 
 .txtMenu {
