@@ -693,9 +693,9 @@ address {
 
 .social_box {
   position: absolute;
-  top: 190px;
+  top: 10px;
   display: inline-block;
-  left: 5%;
+  left: 100%;
   transform: translate(-50%, -50%);
 }
 
