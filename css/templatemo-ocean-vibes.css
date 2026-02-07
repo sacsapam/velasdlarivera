@@ -686,14 +686,14 @@ address {
   color: #03a7bb;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
-  top: 15px;
-  transform: translate(-60%, -60%);
-  left: 25px;
+  top: 5px;
+  transform: translate(-90%, -60%);
+  left: 5px;
 }
 
 .social_box {
   position: absolute;
-  top: 100px;
+  top: 40px;
   display: inline-block;
   left: 95%;
   transform: translate(-50%, -50%);
