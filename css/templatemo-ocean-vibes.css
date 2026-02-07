@@ -718,7 +718,7 @@ address {
 
 .navbar-brand img {
   width: 35px;
-  margin-bottom: 2px; /* Espacio entre logo y texto */
+  margin-bottom: 5px; /* Espacio entre logo y texto */
 }
 
 .navbar-brand span {
