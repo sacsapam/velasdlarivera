@@ -666,7 +666,7 @@ address {
 }
 
 .navbar-brand {
-  margin-right: 50%;
+  margin-right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -688,7 +688,7 @@ address {
   font-family: 'Source Sans Pro', sans-serif;
   top: 55px;
   transform: translate(-50%, -50%);
-  left: 125px;
+  left: 1px;
 }
 
 .social_box {
