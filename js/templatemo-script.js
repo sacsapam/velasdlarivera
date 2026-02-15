@@ -270,4 +270,8 @@ $(document).ready(function () {
         $('.tm-intro-img').attr('src', img);
     }
 
+    function cb(response) {
+        document.getElementById('contador').innerText = `Esta página tiene ${response.value} visitas`;
+    }
+
 });
